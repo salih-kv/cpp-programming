@@ -1,0 +1,46 @@
+BCS-031 : PROGRAMMING IN C++ | June, 2019
+
+Q1. 
+
+?. What is object oriented programming paradigm?
+A: Object-oriented programming (OOP) is a programming paradigm that's based on the concept of objects, which can contain both data and code. OOP is characterized by the identification of classes of objects that are closely associated with the methods (functions) they entail. It also includes ideas of inheritance of attributes and methods.
+
+?. Explain advantages of oop paradigm over structured programming paradigm.
+A: 
+- Offers Security.
+- modularity & reusability
+- It offers more flexibility and better maintenance (Inheritance, Encapsulation, Abstraction)
+- it offers in a real-world scenario
+- allows programmers to modify any part of the code, the
+beginning, the center or the end of a program without affecting the overall
+application
+
+
+?. What is the need of memory management in C++?
+A: 
+- Proper memory management ensures that the limited memory resources are used efficiently and effectively.
+- It prevents memory leaks by ensuring that dynamically allocated memory is properly deallocated.
+- Reduces memory fragmentation, leading to better performance and faster execution times.
+-  It helps avoid crashes and undefined behavior by managing memory boundaries and preventing access to unallocated memory.
+- Good memory management contributes to the overall stability and reliability of the system.
+
+?. What is a virtual function? How does virtual function differ from function in
+C++? Explain with example. 
+A: A virtual function is a member function which is declared within a base class and is re-defined(Overriden) by a derived class.
+
+- They are mainly used to achieve Runtime polymorphism
+- Functions are declared with a virtual keyword in base class.
+- The resolving of function call is done at Run-time.
+
+?. What is operator overloading?
+A: C++ has the ability to provide the operators with a special meaning for a data type,this ability is known as operator overloading.
+
+we can overload an operator ‘+’ in a class like String so that we can
+concatenate two strings by just using +.
+
+- For operator overloading to work, at least one of the operands must be a user
+defined class object. 
+
+?. What is stream manipulator? Explain the use of setw( ) and setprecision( ) as
+stream manipulator. 
+A: 
